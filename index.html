@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodePex - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-section">
+            <h1 id="typing-effect"></h1>
+            <p>I'm a Full-Stack Developer passionate about building web applications and developing games.</p>
+        </div>
+    </header>
+
+    <section id="projects" class="section projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <h3>Alert</h3>
+                <p>Send to all the server a popup message(In Minecraft)</p>
+                <a href="https://github.com/CodePexV1/AlertProject">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Snake Game</h3>
+                <p>A snake game.</p>
+                <a href="https://github.com/CodePexV1/SnakeGame">View Project</a>
+                <br>
+                <a href="https://github.com/CodePexV1/SnakeGame/releases/download/Install/SnakeGameV1.exe">Play now</a>
+            </div>
+            <div class="project">
+                <h3>Coming soon...</h3>
+                <p>soon...</p>
+                <a href="https://x.com/codepexv1">Notice when i upload</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <h2>About Me</h2>
+        <p>I'm a passionate developer who loves coding and solving problems. I specialize in both web development and game development.</p>
+    </section>
+
+    <section class="section skills">
+        <h2>My Tech Skills</h2>
+        <div class="tech-skills">
+            <div class="skill"><i class="fab fa-python"></i> Python</div>
+            <div class="skill"><i class="fab fa-java"></i> Java</div>
+            <div class="skill"><i class="fab fa-js-square"></i> JavaScript</div>
+            <div class="skill"><i class="fab fa-node-js"></i> Node.js</div>
+            <div class="skill"><i class="fab fa-php"></i> PHP</div>
+            <div class="skill"><i class="fab fa-html5"></i> HTML5</div>
+            <div class="skill"><i class="fab fa-css3-alt"></i> CSS3</div>
+            <div class="skill"><i class="fab fa-angular"></i> Angular</div>
+            <div class="skill"><i class="fab fa-react"></i> React</div>
+            <div class="skill"><i class="fab fa-ubuntu"></i> Linux</div>
+        </div>
+    </section>
+
+    
+
+    <section id="contact" class="section contact">
+        <h2>Contact</h2>
+        <form action="#" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+            <p>You can also send me a email: codepexv1@gmail.com</p>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> CodePex. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://github.com/codepexv1" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/codepexv1" class="social-icon"><i class="fab fa-twitter"></i></a>
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
